@@ -1,0 +1,398 @@
+1508869831935	geckodriver	INFO	geckodriver 0.18.0
+1508869832005	geckodriver	INFO	Listening on 127.0.0.1:49414
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508869833256	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508869834087	Marionette	INFO	Enabled via --marionette
+1508869835673	Marionette	INFO	Listening on port 49423
+1508869835695	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508869835747	Marionette	DEBUG	loaded listener.js
+2017-10-24 14:30:35.812 plugin-container[25592:33585636] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 14:30:35.815 plugin-container[25592:33585636] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad23, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 14:30:35.815 plugin-container[25592:33585636] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508869836084	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508869836717	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508869836717	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508869838450	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://magento.com/products/open-source"
+1508869838470	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508869838591	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508869838593	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508869839813	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508869840116	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508869840117	Marionette	DEBUG	Received DOM event "pageshow" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508869841165	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:290:7
+element.find/</findElements<@chrome://marionette/content/element.js:256:17
+evalFn@chrome://marionette/content/wait.js:70:7
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:290:7
+element.find/</findElements<@chrome://marionette/content/element.js:256:17
+evalFn@chrome://marionette/content/wait.js:70:7
+
+*************************
+Marionette threw an error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: chrome://marionette/content/proxy.js :: sendReply_ :: line 195"  data: no]
+sendReply_@chrome://marionette/content/proxy.js:195:5
+reply@chrome://marionette/content/proxy.js:175:7
+sendToServer@chrome://marionette/content/listener.js:641:3
+sendError@chrome://marionette/content/listener.js:675:3
+dispatch/</<@chrome://marionette/content/listener.js:443:40
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:925:21
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+1508869871057	geckodriver	INFO	geckodriver 0.18.0
+1508869871103	geckodriver	INFO	Listening on 127.0.0.1:49590
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508869872249	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508869872812	Marionette	INFO	Enabled via --marionette
+2017-10-24 14:31:13.985 plugin-container[25608:33586184] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa83f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 14:31:13.989 plugin-container[25608:33586184] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4e17, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 14:31:13.989 plugin-container[25608:33586184] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508869874131	Marionette	INFO	Listening on port 49599
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508869874228	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508869874259	Marionette	DEBUG	loaded listener.js
+1508869874613	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508869875103	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508869875103	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508869876766	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://magento.com/products/open-source"
+1508869876838	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508869877242	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508869877245	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508869878212	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508869878534	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508869878536	Marionette	DEBUG	Received DOM event "pageshow" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508869879027	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+2017-10-24 14:31:19.587 plugin-container[25609:33586325] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa737, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 14:31:19.588 plugin-container[25609:33586325] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4b1b, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 14:31:19.588 plugin-container[25609:33586325] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508869926482	geckodriver	INFO	geckodriver 0.18.0
+1508869926530	geckodriver	INFO	Listening on 127.0.0.1:49764
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508869927695	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508869928241	Marionette	INFO	Enabled via --marionette
+2017-10-24 14:32:09.354 plugin-container[25616:33586937] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa83f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 14:32:09.359 plugin-container[25616:33586937] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa943, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 14:32:09.359 plugin-container[25616:33586937] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508869929486	Marionette	INFO	Listening on port 49773
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508869929579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508869929626	Marionette	DEBUG	loaded listener.js
+1508869929958	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508869930540	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508869930540	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508869932227	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://magento.com/products/open-source"
+1508869932315	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508869932678	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508869932680	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508869933569	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508869933870	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508869933871	Marionette	DEBUG	Received DOM event "pageshow" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508869935864	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+console.error: 
+  Message: TypeError: this.nodeHierarchy[this.currentIndex] is undefined
+  Stack:
+    scroll@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/breadcrumbs.js:764:11
+update/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/breadcrumbs.js:910:9
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+1508872080304	geckodriver	INFO	geckodriver 0.18.0
+1508872080350	geckodriver	INFO	Listening on 127.0.0.1:50143
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508872081551	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508872082304	Marionette	INFO	Enabled via --marionette
+2017-10-24 15:08:03.658 plugin-container[26978:33599754] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa73f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:08:03.662 plugin-container[26978:33599754] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4c1b, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:08:03.662 plugin-container[26978:33599754] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508872083807	Marionette	INFO	Listening on port 50152
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508872083864	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508872083897	Marionette	DEBUG	loaded listener.js
+1508872084300	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508872084894	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508872084895	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508872086442	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://magento.com/products/open-source"
+1508872086473	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508872087276	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508872087278	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508872087864	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508872088195	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508872088196	Marionette	DEBUG	Received DOM event "pageshow" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508872089899	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508872146171	Marionette	INFO	New connections will no longer be accepted
+1508872361649	Marionette	DEBUG	loaded listener.js
+2017-10-24 15:12:41.717 plugin-container[27116:33637989] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa43b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:12:41.718 plugin-container[27116:33637989] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4d17, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:12:41.718 plugin-container[27116:33637989] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508872522280	geckodriver	INFO	geckodriver 0.18.0
+1508872522334	geckodriver	INFO	Listening on 127.0.0.1:50547
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508872523614	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508872524490	Marionette	INFO	Enabled via --marionette
+2017-10-24 15:15:26.104 plugin-container[27145:33679652] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:15:26.105 plugin-container[27145:33679652] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa27, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:15:26.105 plugin-container[27145:33679652] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508872526370	Marionette	INFO	Listening on port 50556
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508872526456	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508872526503	Marionette	DEBUG	loaded listener.js
+1508872526924	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508872527440	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508872527441	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508872529943	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://magento.com/products/open-source"
+1508872529996	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508872530627	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508872530630	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508872531533	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508872531833	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508872531834	Marionette	DEBUG	Received DOM event "pageshow" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508872532052	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508872570025	geckodriver	INFO	geckodriver 0.18.0
+1508872570081	geckodriver	INFO	Listening on 127.0.0.1:50734
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508872571321	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508872572055	Marionette	INFO	Enabled via --marionette
+2017-10-24 15:16:13.575 plugin-container[27161:33692017] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa73f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:16:13.576 plugin-container[27161:33692017] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa90f, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:16:13.576 plugin-container[27161:33692017] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508872573778	Marionette	INFO	Listening on port 50743
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508872573844	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508872573881	Marionette	DEBUG	loaded listener.js
+1508872574313	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508872574754	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508872574755	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508872576750	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://magento.com/products/open-source"
+1508872576805	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508872577598	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508872577623	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508872578235	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508872578540	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508872578542	Marionette	DEBUG	Received DOM event "pageshow" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508872580222	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508872664457	geckodriver	INFO	geckodriver 0.18.0
+1508872664517	geckodriver	INFO	Listening on 127.0.0.1:50946
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508872665802	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508872666689	Marionette	INFO	Enabled via --marionette
+1508872668596	Marionette	INFO	Listening on port 50955
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508872668692	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508872668757	Marionette	DEBUG	loaded listener.js
+2017-10-24 15:17:48.803 plugin-container[27181:33716243] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:17:48.803 plugin-container[27181:33716243] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4e23, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:17:48.803 plugin-container[27181:33716243] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508872669286	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508872669814	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508872669814	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508872671985	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://magento.com/products/open-source"
+1508872672073	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508872673289	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508872673297	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508872674019	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508872674376	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508872674377	Marionette	DEBUG	Received DOM event "pageshow" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508872675431	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508872702545	geckodriver	INFO	geckodriver 0.18.0
+1508872702596	geckodriver	INFO	Listening on 127.0.0.1:51146
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508872703875	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508872704661	Marionette	INFO	Enabled via --marionette
+1508872706533	Marionette	INFO	Listening on port 51155
+1508872706638	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-10-24 15:18:26.643 plugin-container[27197:33726337] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:18:26.643 plugin-container[27197:33726337] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa1f, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:18:26.643 plugin-container[27197:33726337] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508872706702	Marionette	DEBUG	loaded listener.js
+1508872707183	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508872707334	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508872707335	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508872708992	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://magento.com/search/gss"
+1508872709717	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508872709720	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508872711011	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/search/gss"
+1508872711430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508872711433	Marionette	DEBUG	Received DOM event "pageshow" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508872712032	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/search/gss"
+1508872722514	Marionette	INFO	New connections will no longer be accepted
+1508873162398	geckodriver	INFO	geckodriver 0.18.0
+1508873162459	geckodriver	INFO	Listening on 127.0.0.1:51430
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508873163651	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508873164362	Marionette	INFO	Enabled via --marionette
+2017-10-24 15:26:05.718 plugin-container[27674:33844561] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa83f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:26:05.718 plugin-container[27674:33844561] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4e17, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:26:05.718 plugin-container[27674:33844561] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508873165939	Marionette	INFO	Listening on port 51439
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508873165981	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508873166018	Marionette	DEBUG	loaded listener.js
+1508873166383	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508873166985	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508873166985	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508873168935	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://magento.com/products/open-source"
+1508873168993	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1508873169149	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508873169160	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508873173766	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508873174434	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508873174436	Marionette	DEBUG	Received DOM event "pageshow" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508873174556	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products/open-source"
+1508873229880	geckodriver	INFO	geckodriver 0.18.0
+1508873229935	geckodriver	INFO	Listening on 127.0.0.1:51686
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508873231119	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508873231777	Marionette	INFO	Enabled via --marionette
+1508873233163	Marionette	INFO	Listening on port 51695
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508873233207	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508873233249	Marionette	DEBUG	loaded listener.js
+2017-10-24 15:27:13.296 plugin-container[27887:33862836] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa83f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:27:13.297 plugin-container[27887:33862836] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa23, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:27:13.297 plugin-container[27887:33862836] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508873233628	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508873233786	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508873233786	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508873235148	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://magento.com/products"
+1508873235279	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508873235284	Marionette	DEBUG	Received DOM event "pageshow" for "https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"
+1508873236565	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products"
+1508873236985	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508873236986	Marionette	DEBUG	Received DOM event "pageshow" for "https://app-sj16.marketo.com/index.php/form/XDFrame"
+1508873241432	Marionette	DEBUG	Received DOM event "pageshow" for "https://magento.com/products"
+2017-10-24 15:56:19.431 plugin-container[28630:33879663] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa83f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:56:19.434 plugin-container[28630:33879663] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf1f, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:56:19.434 plugin-container[28630:33879663] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+2017-10-24 15:56:26.825 plugin-container[28631:33879777] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:56:26.827 plugin-container[28631:33879777] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac1b, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:56:26.827 plugin-container[28631:33879777] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+2017-10-24 15:56:57.302 plugin-container[28641:33880033] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa73f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:56:57.302 plugin-container[28641:33880033] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4b13, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:56:57.302 plugin-container[28641:33880033] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508875045866	geckodriver	INFO	geckodriver 0.18.0
+1508875045917	geckodriver	INFO	Listening on 127.0.0.1:51994
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508875047120	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508875047713	Marionette	INFO	Enabled via --marionette
+2017-10-24 15:57:28.879 plugin-container[28652:33880734] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa83f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:57:28.882 plugin-container[28652:33880734] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4d1f, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:57:28.882 plugin-container[28652:33880734] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508875049053	Marionette	INFO	Listening on port 52003
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508875049108	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508875049179	Marionette	DEBUG	loaded listener.js
+1508875049553	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508875050851	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508875050851	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1508875057405	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demo-store.seleniumacademy.com/"
+1508875065084	Marionette	DEBUG	Received DOM event "pageshow" for "http://demo-store.seleniumacademy.com/"
+1508875123230	geckodriver	INFO	geckodriver 0.18.0
+1508875123278	geckodriver	INFO	Listening on 127.0.0.1:52171
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508875124460	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508875125055	Marionette	INFO	Enabled via --marionette
+2017-10-24 15:58:46.212 plugin-container[29058:33883216] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa83f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:58:46.214 plugin-container[29058:33883216] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4d17, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 15:58:46.214 plugin-container[29058:33883216] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508875126377	Marionette	INFO	Listening on port 52180
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508875126449	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508875126484	Marionette	DEBUG	loaded listener.js
+1508875126910	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508875127606	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508875127606	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1508875129935	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demo-store.seleniumacademy.com/"
+1508875131872	Marionette	DEBUG	Received DOM event "pageshow" for "http://demo-store.seleniumacademy.com/"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1508875136347	Marionette	INFO	New connections will no longer be accepted
+1508875278857	geckodriver	INFO	geckodriver 0.18.0
+1508875278904	geckodriver	INFO	Listening on 127.0.0.1:52294
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508875280039	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508875280634	Marionette	INFO	Enabled via --marionette
+2017-10-24 16:01:21.776 plugin-container[29185:33885206] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 16:01:21.783 plugin-container[29185:33885206] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4f13, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 16:01:21.783 plugin-container[29185:33885206] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508875281908	Marionette	INFO	Listening on port 52303
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508875281930	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508875281965	Marionette	DEBUG	loaded listener.js
+1508875282331	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508875285009	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508875285009	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1508875287032	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demo-store.seleniumacademy.com/"
+1508875288988	Marionette	DEBUG	Received DOM event "pageshow" for "http://demo-store.seleniumacademy.com/"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1508875290105	Marionette	INFO	New connections will no longer be accepted
+[Child 29185] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1508875302311	geckodriver	INFO	geckodriver 0.18.0
+1508875302355	geckodriver	INFO	Listening on 127.0.0.1:52440
+SCANs: realpath [/usr/local/bin/dreampie] failed with errno 62 (Too many levels of symbolic links)
+1508875303491	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1508875304032	Marionette	INFO	Enabled via --marionette
+2017-10-24 16:01:45.151 plugin-container[29387:33886929] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa93f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 16:01:45.155 plugin-container[29387:33886929] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac23, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-24 16:01:45.155 plugin-container[29387:33886929] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1508875305285	Marionette	INFO	Listening on port 52449
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1508875305381	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508875305411	Marionette	DEBUG	loaded listener.js
+1508875305767	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508875306431	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508875306431	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1508875308589	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demo-store.seleniumacademy.com/"
+1508875311012	Marionette	DEBUG	Received DOM event "pageshow" for "http://demo-store.seleniumacademy.com/"
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
