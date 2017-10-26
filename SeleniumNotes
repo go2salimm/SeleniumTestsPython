@@ -1,0 +1,10 @@
+http://demo-store.seleniumacademy.com/
+
+Download the InternetExplorerDriver server from http://www.seleniumhq.org/download/
+Download the ChromeDriver server from http://chromedriver.storage.googleapis.com/index.html
+
+
+sharing a single Firefox instance between the methods instead of creating a new instance every time? This can be done by using the
+setUpClass() and tearDownClass() methods and using the @classmethod decorator.
+These methods allow us to initialize values at the class level instead of the method level and then share these values between the test methods
+
