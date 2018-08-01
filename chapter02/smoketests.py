@@ -1,6 +1,6 @@
 import unittest
 import HTMLTestRunner
-import os
+import os,sys
 from searchtests import SearchTests
 from homepagetests import HomePageTests
 
